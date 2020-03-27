@@ -1,0 +1,6 @@
+if you get  Router1 >enable
+R1#config -t or terminal  
+R1(config)#        ospf(open shortest path first)
+
+area 0 authentication message-digest
+ip ospf message-digest-key 1 md5 cellwall
